@@ -9,6 +9,11 @@ Code generating the figures are given by files:
 - FIGURE_6_AF647_train_test.m for Figure 6
 - FIGURE_S2_alexa_plots_pshmm_mixture.m for Figure S2 (Supplement)
 
+Algorithms:
+- Algorithm 2 is given by emission_delta_endstate_istate.m where i=3,4,5 for the 3,4,5 state cases (m=0,1,2 respectively). 
+- Algorithm 3 is given by no_locs_pmf.m 
+- Algorithm 4 is provided in FIGURE_6_AF647_train_test.m (in the final for loop).
+
 Data: 
 - p_sum_of_locs_sims.mat and p_sum_of_locs_true.mat; simulated and theoretical probabilities generated for Figure 2
 - sims_xstate_y.mat for x=3,4,5 and y=fast,medium,slow (9 datasets) for Figure 3 
